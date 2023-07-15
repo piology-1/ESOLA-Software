@@ -1,0 +1,26 @@
+import QmlProject 1.1
+
+Project {
+    mainFile: "Solartankstelle.qml"
+
+    /* Include .qml, .js, and image files from current directory and subdirectories */
+    QmlFiles {
+        directory: "."
+    }
+
+    Files {
+        filter: "qmldir"
+    }
+
+    ImageFiles {
+        filter: "*"
+        directory: "images"
+    }
+
+    Files {
+        filter: "*"
+        directory: "fonts"
+    }
+
+    mainUiFile: "qml/ManagementMenu.ui.qml"
+}

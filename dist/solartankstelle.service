@@ -1,0 +1,14 @@
+[Unit]
+Description=GUI für Solartankstelle
+
+[Service]
+Type=simple
+User=1000
+Group=1000
+ExecStart=/usr/bin/python3 /home/solar/esola/gui_main.py
+WorkingDirectory=/home/solar/esola
+Environment=QT_QPA_PLATFORM=eglfs
+Environment=QT_QPA_EGLFS_HIDECURSOR=0
+
+[Install]
+WantedBy=multi-user.target

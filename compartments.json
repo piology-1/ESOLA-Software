@@ -1,0 +1,39 @@
+{
+  "_comment": [
+              "Zuordnung der Buttons auf die Fächer.",
+              "Insgesamt könnte durch eine Erweiterung im Drehturm die Anzahl auf 20 ladbare Akkus erhöht werden.",
+              "Für jeden Akkutypen eine 2D-Liste.",
+              "Jedes Element (Button) besteht aus einer weiteren Liste mit dem Format:[Türnummer, Drehturmstellung] und wird so dem entsprechenden Fach zugeordnet.",
+              "Dauerhaft deaktivierte Buttons (Elemente) werden als leere Liste: [] dargestellt."
+              ],
+
+
+  "bosch": [
+            [0,0],
+            [],
+            [],
+            [],
+            [1,0],
+            [],
+            [],
+            []
+            ],
+
+  "panasonic": [
+                [2,0],
+                [],
+                [],
+                [],
+                [3,0],
+                [],
+                [],
+                []
+                ],
+
+  "panterra": [
+              [4,0],
+              [],
+              [],
+              []
+              ]
+}
